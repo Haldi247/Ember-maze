@@ -1,0 +1,66 @@
+<html>
+<canvas id="gl-canvas" width="1450" height="815"></canvas>
+<link rel="icon" href="data:,">
+<div id="title-screen">
+    <div id="title-name">EMBER MAZE</div>
+    <div id="title-sub">A Flame's Journey Through Darkness</div>
+    <button id="title-start-btn">Play &#9658;</button>
+</div>
+
+<div id="instructions-overlay">
+    <div id="instructions-card">
+        <div class="instr-title">How to Play</div>
+        <ol>
+            <li>Help Ember find the lamp.</li>
+            <li>To win complete all levels in order.</li>
+            <li>Ember is allergic to water, so avoid contact at all times.</li>
+            <li>Pay close attention to the audio; the audio gets louder as you approach the dripping water.</li>
+            <li>Use the Arrow keys to navigate through the maze, UP, RIGHT, and LEFT.</li>
+            <li>Click the three lines at the top right to access the menu.</li>
+        </ol>
+        <button id="instructions-close-btn">Let's Go! &#9658;</button>
+    </div>
+</div>
+
+<button id="menu-btn">&#9776;</button>
+
+<div id="menu-overlay">
+    <div class="menu-card">
+        <div class="menu-label">Volume</div>
+        <input type="range" id="volume-slider" min="0" max="100" value="80">
+    </div>
+    <div class="menu-card">
+        <div class="menu-label">Level</div>
+        <div class="menu-row">
+            <button class="level-btn active" data-level="0">1</button>
+            <button class="level-btn"        data-level="1">2</button>
+            <button class="level-btn"        data-level="2">3</button>
+        </div>
+    </div>
+    <div class="menu-card menu-row">
+        <button class="action-btn" id="resume-btn">Resume</button>
+        <button class="action-btn" id="title-page-btn">Title Page</button>
+    </div>
+    <div class="menu-card">
+        <button class="action-btn" id="instructions-menu-btn" style="width:100%;">&#9432; How to Play</button>
+    </div>
+</div>
+
+<button id="next-level-btn">&#8594;</button>
+
+<div id="victory-overlay">
+    <div id="victory-card">
+        <div id="victory-title">VICTORY!</div>
+        <div id="victory-sub">Ember has lit every lamp and conquered the darkness.</div>
+        <div class="victory-btn-row">
+            <button class="victory-btn" id="victory-menu-btn">Main Menu</button>
+            <button class="victory-btn" id="victory-restart-btn">Play Again</button>
+        </div>
+    </div>
+</div>
+
+<script src="gl-matrix-min.js"></script>
+<script src="shader.js"></script>
+<script src="camera.js"></script>
+<script src="game.js"></script>
+</html>

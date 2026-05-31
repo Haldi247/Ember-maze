@@ -1,0 +1,47 @@
+<svg viewBox="0 0 522 522" xmlns="http://www.w3.org/2000/svg" width="100%">
+  <defs>
+    <!-- Flame pattern with fine vertical lines throughout -->
+    <pattern id="flameZigzag" width="32" height="32" patternUnits="userSpaceOnUse">
+      <rect width="32" height="32" fill="#aa0044"/>
+      
+      <!-- Fine vertical lines (streaks) - dense throughout -->
+      <rect x="1" y="0" width="1" height="32" fill="#ff69b4" opacity="0.8"/>
+      <rect x="3" y="0" width="1" height="32" fill="#ff1493" opacity="0.6"/>
+      <rect x="5" y="0" width="1" height="32" fill="#ff7ebe" opacity="0.7"/>
+      <rect x="7" y="0" width="1" height="32" fill="#ff006f" opacity="0.5"/>
+      <rect x="9" y="0" width="1" height="32" fill="#ff69b4" opacity="0.8"/>
+      <rect x="11" y="0" width="1" height="32" fill="#ff1493" opacity="0.6"/>
+      <rect x="13" y="0" width="1" height="32" fill="#ff0080" opacity="0.7"/>
+      <rect x="15" y="0" width="1" height="32" fill="#ff69b4" opacity="0.5"/>
+      <rect x="17" y="0" width="1" height="32" fill="#ff1493" opacity="0.8"/>
+      <rect x="19" y="0" width="1" height="32" fill="#ff7ebe" opacity="0.6"/>
+      <rect x="21" y="0" width="1" height="32" fill="#ff006f" opacity="0.7"/>
+      <rect x="23" y="0" width="1" height="32" fill="#ff69b4" opacity="0.5"/>
+      <rect x="25" y="0" width="1" height="32" fill="#ff0080" opacity="0.8"/>
+      <rect x="27" y="0" width="1" height="32" fill="#ff1493" opacity="0.6"/>
+      <rect x="29" y="0" width="1" height="32" fill="#ff69b4" opacity="0.7"/>
+      <rect x="31" y="0" width="1" height="32" fill="#ff7ebe" opacity="0.5"/>
+      
+      <!-- Additional fine accent vertical lines -->
+      <rect x="0" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.4"/>
+      <rect x="2" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.3"/>
+      <rect x="4" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.4"/>
+      <rect x="6" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.3"/>
+      <rect x="8" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.4"/>
+      <rect x="10" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.3"/>
+      <rect x="12" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.4"/>
+      <rect x="14" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.3"/>
+      <rect x="16" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.4"/>
+      <rect x="18" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.3"/>
+      <rect x="20" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.4"/>
+      <rect x="22" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.3"/>
+      <rect x="24" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.4"/>
+      <rect x="26" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.3"/>
+      <rect x="28" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.4"/>
+      <rect x="30" y="0" width="0.5" height="32" fill="#ffc0cb" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Full canvas filled entirely with the flame pattern -->
+  <rect x="0" y="0" width="522" height="522" fill="url(#flameZigzag)"/>
+</svg>
